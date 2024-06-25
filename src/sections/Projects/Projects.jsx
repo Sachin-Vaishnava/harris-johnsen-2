@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import viberr from "../../assets/shoppers ecomerce.png";
+import freshBurger from "../../assets/fresh-burger.png";
+import hipsster from "../../assets/hipsster.png";
+import fitLift from "../../assets/fitlift.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -13,14 +13,14 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Ecomerce"
+          p="Shoppers Ecomerece app"
         />
         <ProjectCard
           src={freshBurger}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Clone Site"
+          p="Myntra Clone "
         />
         <ProjectCard
           src={hipsster}
